@@ -1,9 +1,10 @@
 name: Deploy React App
 on:
-  branches:
-    - master
-  paths-ignore:
-    - '.github/workflows/*'
+  push:
+   branches:
+     - master
+   paths-ignore:
+     - '.github/workflows/*'
 jobs:
   test:
     runs-on: windows-latest
