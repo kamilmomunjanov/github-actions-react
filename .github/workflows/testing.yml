@@ -1,0 +1,12 @@
+name: Testing react App
+on: push
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - name: Get the repository code
+        uses: actions/checkout@v4
+      - name: Install dependence
+        run: npm ci
+      - name: Test application
+        run: npm run test
