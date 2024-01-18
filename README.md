@@ -1,17 +1,17 @@
-+# Ознакомление с Github Actions
++ # Ознакомление с Github Actions
 
-+## Первый workflow
++ ## Первый workflow
 
-+### Автоматически тестируем React
++ ### Автоматически тестируем React
 
-+### Зависимость job и их порядок
++ ### Зависимость job и их порядок
 
-+### Context & Events
++ ### Context & Events
 
-+### Добавление cache
++ ### Добавление cache
 
-+### Matrix
++ ### Matrix
 
-+### Artifacts
++ ### Artifacts
 
 +### Environment & Secrets
